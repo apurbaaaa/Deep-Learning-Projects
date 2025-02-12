@@ -1,0 +1,47 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.whl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+*.venv
+*.env
+
+# Dependencies
+*.egg-info/
+Pipfile.lock
+poetry.lock
+
+# Model and dataset files
+*.h5
+*.onnx
+*.pt
+*.tflite
+fashion_mnist/
+
+# Logs and debug files
+logs/
+*.log
+debug.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.o
+*.out
+*.a
+*.exe
+
+# OpenCV temp files
+output.avi
+output.mp4
+frames/
